@@ -1,8 +1,12 @@
 import os
 import json
 from flask import Flask, request, jsonify
+from flask_cors import CORS
+
+
 
 app = Flask(__name__)
+CORS(app)
 
 # Load optimization rules from the JSON file
 with open('rules.json', 'r') as f:
