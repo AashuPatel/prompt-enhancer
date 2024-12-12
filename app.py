@@ -48,6 +48,11 @@ def optimize_prompt(prompt):
 
     return prompt
 
+@app.route('/', methods=['GET'])
+def root():
+    return jsonify({"message": "It was a get request"})
+
+
 @app.route('/optimize', methods=['POST'])
 def optimize():
     data = request.get_json()
