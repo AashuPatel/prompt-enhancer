@@ -1,0 +1,28 @@
+# Ignore virtual environment directory
+venv/
+
+# Ignore Python bytecode files
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+
+# Ignore environment configuration files
+.env
+
+# Ignore VS Code settings (optional)
+.vscode/
+
+# Ignore the IDE project files (optional)
+.idea/
+
+# Ignore log files
+*.log
+
+# Ignore deployment specific files (optional)
+*.bak
+*.swp
+
+# Ignore any other system files (optional)
+.DS_Store
+Thumbs.db

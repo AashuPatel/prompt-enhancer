@@ -1,0 +1,992 @@
+{
+    "rules": [
+      {
+        "type": "essay",
+        "keywords": ["essay", "write", "discuss", "elaborate"],
+        "response": "Please ensure the essay is well-structured with an introduction, body, and conclusion."
+      },
+      {
+        "type": "step_by_step",
+        "keywords": ["steps to", "how to", "process", "guide"],
+        "response": "Please provide a step-by-step guide to accomplish this task."
+      },
+      {
+        "type": "clarify_short",
+        "min_length": 10,
+        "response": "Please elaborate more on the topic."
+      },
+      {
+        "type": "example",
+        "keywords": ["example", "demonstrate", "illustrate"],
+        "response": "Please provide a relevant example to illustrate your point."
+      },
+      {
+        "type": "list",
+        "keywords": ["list", "enumerate", "give a list"],
+        "response": "Please provide a list of relevant points or items."
+      },
+      {
+        "type": "essay",
+        "keywords": ["essay", "write", "discuss", "elaborate"],
+        "response": "Please ensure the essay is well-structured with an introduction, body, and conclusion."
+      },
+      {
+        "type": "step_by_step",
+        "keywords": ["steps to", "how to", "process", "guide"],
+        "response": "Please provide a step-by-step guide to accomplish this task."
+      },
+      {
+        "type": "clarify_short",
+        "min_length": 10,
+        "response": "Please elaborate more on the topic."
+      },
+      {
+        "type": "example",
+        "keywords": ["example", "demonstrate", "illustrate"],
+        "response": "Please provide a relevant example to illustrate your point."
+      },
+      {
+        "type": "list",
+        "keywords": ["list", "enumerate", "give a list"],
+        "response": "Please provide a list of relevant points or items."
+      },
+      {
+        "type": "define",
+        "keywords": ["define", "definition", "meaning"],
+        "response": "Please provide a clear and concise definition of the term."
+      },
+      {
+        "type": "compare",
+        "keywords": ["compare", "differences", "contrast", "similarities"],
+        "response": "Please compare and contrast the two concepts, highlighting their key differences and similarities."
+      },
+      {
+        "type": "summary",
+        "keywords": ["summarize", "summary", "overview"],
+        "response": "Please provide a brief summary of the given information."
+      },
+      {
+        "type": "opinion",
+        "keywords": ["opinion", "believe", "think", "viewpoint"],
+        "response": "Please provide your opinion on the subject, explaining the reasoning behind it."
+      },
+      {
+        "type": "benefits",
+        "keywords": ["benefits", "advantages", "positives"],
+        "response": "Please describe the benefits or advantages of the concept or idea."
+      },
+      {
+        "type": "drawbacks",
+        "keywords": ["drawbacks", "disadvantages", "negatives"],
+        "response": "Please outline the potential drawbacks or disadvantages of the concept or idea."
+      },
+      {
+        "type": "explain",
+        "keywords": ["explain", "clarify", "elucidate"],
+        "response": "Please explain the concept clearly and in detail."
+      },
+      {
+        "type": "how_it_works",
+        "keywords": ["how", "works", "function", "operate"],
+        "response": "Please explain how the system or process works in simple terms."
+      },
+      {
+        "type": "steps_for",
+        "keywords": ["steps for", "how to", "procedure for"],
+        "response": "Please provide the procedure or steps to complete the given task."
+      },
+      {
+        "type": "causes",
+        "keywords": ["causes", "reasons", "why"],
+        "response": "Please explain the causes or reasons behind the given phenomenon."
+      },
+      {
+        "type": "solutions",
+        "keywords": ["solutions", "fix", "remedy", "cure"],
+        "response": "Please provide solutions or remedies for the problem mentioned."
+      },
+      {
+        "type": "consequence",
+        "keywords": ["consequence", "effect", "impact"],
+        "response": "Please explain the consequences or effects of the situation."
+      },
+      {
+        "type": "history",
+        "keywords": ["history", "background", "origin", "evolution"],
+        "response": "Please provide a brief history or background of the topic."
+      },
+      {
+        "type": "future",
+        "keywords": ["future", "outlook", "prediction", "prognosis"],
+        "response": "Please describe the potential future implications or outlook for the topic."
+      },
+      {
+        "type": "importance",
+        "keywords": ["importance", "significance", "relevance"],
+        "response": "Please explain the importance or significance of the topic."
+      },
+      {
+        "type": "techniques",
+        "keywords": ["techniques", "methods", "strategies", "approaches"],
+        "response": "Please describe the techniques or methods used to accomplish the task."
+      },
+      {
+        "type": "examples_of",
+        "keywords": ["examples of", "instances of", "case studies"],
+        "response": "Please provide examples or case studies to illustrate the concept."
+      },
+      {
+        "type": "advantages_of",
+        "keywords": ["advantages of", "benefits of"],
+        "response": "Please describe the advantages or benefits of this particular method or idea."
+      },
+      {
+        "type": "disadvantages_of",
+        "keywords": ["disadvantages of", "limitations of"],
+        "response": "Please describe the disadvantages or limitations of this particular method or idea."
+      },
+      {
+        "type": "challenges",
+        "keywords": ["challenges", "issues", "difficulties", "obstacles"],
+        "response": "Please outline the challenges or difficulties that may arise in this scenario."
+      },
+      {
+        "type": "applications",
+        "keywords": ["applications", "uses", "purposes", "benefits"],
+        "response": "Please describe the practical applications or uses of this concept."
+      },
+      {
+        "type": "advantages_and_disadvantages",
+        "keywords": ["pros and cons", "advantages and disadvantages", "benefits and drawbacks"],
+        "response": "Please provide a balanced overview of the advantages and disadvantages of the given subject."
+      },
+      {
+        "type": "process",
+        "keywords": ["process", "procedure", "workflow"],
+        "response": "Please describe the process or procedure involved in completing this task."
+      },
+      {
+        "type": "steps_to_achieve",
+        "keywords": ["steps to achieve", "how to achieve", "process to accomplish"],
+        "response": "Please outline the steps necessary to achieve this goal."
+      },
+      {
+        "type": "case_study",
+        "keywords": ["case study", "example", "real-world example"],
+        "response": "Please provide a case study or a real-world example related to the topic."
+      },
+      {
+        "type": "comparison_between",
+        "keywords": ["comparison between", "differences between", "contrast between"],
+        "response": "Please compare and contrast the given subjects or topics."
+      },
+      {
+        "type": "why_important",
+        "keywords": ["why important", "why critical", "why necessary"],
+        "response": "Please explain why this topic is important or critical."
+      },
+      {
+        "type": "summary_of",
+        "keywords": ["summary of", "overview of"],
+        "response": "Please provide a brief summary or overview of the content."
+      },
+      {
+        "type": "overview",
+        "keywords": ["overview", "brief overview"],
+        "response": "Please provide a general overview of the topic."
+      },
+      {
+        "type": "conclusion",
+        "keywords": ["conclusion", "closing thoughts", "final thoughts"],
+        "response": "Please conclude the discussion with final thoughts or a conclusion."
+      },
+      {
+        "type": "requirements",
+        "keywords": ["requirements", "pre-requisites", "needs"],
+        "response": "Please list the requirements or prerequisites needed to complete this task."
+      },
+      {
+        "type": "tools_and_technologies",
+        "keywords": ["tools", "technologies", "software", "platforms"],
+        "response": "Please list the tools or technologies used in this process."
+      },
+      {
+        "type": "importance_of",
+        "keywords": ["importance of", "role of"],
+        "response": "Please explain the importance or role of this concept in the given context."
+      },
+      {
+        "type": "recommendations",
+        "keywords": ["recommendations", "suggestions", "advice"],
+        "response": "Please provide recommendations or suggestions related to the topic."
+      },
+      {
+        "type": "best_practices",
+        "keywords": ["best practices", "ideal methods", "tips"],
+        "response": "Please outline the best practices or ideal methods to achieve success in this area."
+      },
+      {
+        "type": "examples_of_best_practices",
+        "keywords": ["examples of best practices", "successful examples"],
+        "response": "Please provide examples of successful best practices in this domain."
+      },
+      {
+        "type": "pitfalls_to_avoid",
+        "keywords": ["pitfalls", "mistakes", "common errors", "things to avoid"],
+        "response": "Please describe the common pitfalls or mistakes to avoid when handling this task."
+      },
+      {
+        "type": "insights",
+        "keywords": ["insights", "lessons learned", "takeaways"],
+        "response": "Please provide insights or lessons learned from this experience."
+      },
+      {
+        "type": "considerations",
+        "keywords": ["considerations", "factors to consider", "important points"],
+        "response": "Please list the important considerations or factors to keep in mind when addressing this topic."
+      },
+      {
+        "type": "future_trends",
+        "keywords": ["future trends", "emerging trends", "upcoming trends"],
+        "response": "Please explain the upcoming trends or emerging developments in this field."
+      },
+      {
+        "type": "history_and_evolution",
+        "keywords": ["history and evolution", "background and development"],
+        "response": "Please describe the history and evolution of this concept."
+      },
+      {
+        "type": "innovations",
+        "keywords": ["innovations", "new developments", "advances"],
+        "response": "Please describe the innovations or new developments in this field."
+      },
+      {
+        "type": "impact_of_technology",
+        "keywords": ["impact of technology", "role of technology", "technological impact"],
+        "response": "Please explain the impact of technology on this industry or area."
+      },
+      {
+        "type": "quantitative_data",
+        "keywords": ["data", "statistics", "numbers"],
+        "response": "Please provide quantitative data or statistics related to the topic."
+      },
+      {
+        "type": "qualitative_data",
+        "keywords": ["qualitative data", "opinion", "perspective"],
+        "response": "Please provide qualitative data or insights based on personal perspective."
+      },
+      {
+        "type": "cost_analysis",
+        "keywords": ["cost analysis", "financial analysis", "budgeting"],
+        "response": "Please provide a cost analysis or breakdown of the financial aspects of the topic."
+      },
+      {
+        "type": "stakeholders",
+        "keywords": ["stakeholders", "parties involved", "key players"],
+        "response": "Please describe the key stakeholders or parties involved in this process."
+      },
+      {
+        "type": "resources_needed",
+        "keywords": ["resources", "materials", "equipment"],
+        "response": "Please list the resources or materials needed to accomplish this task."
+      },
+      {
+        "type": "ethical_considerations",
+        "keywords": ["ethical considerations", "ethics", "moral implications"],
+        "response": "Please explain the ethical considerations or moral implications of the given task."
+      },
+      {
+        "type": "regulations",
+        "keywords": ["regulations", "rules", "laws"],
+        "response": "Please describe the relevant regulations, rules, or laws pertaining to this subject."
+      },
+      {
+        "type": "interpretation",
+        "keywords": ["interpretation", "meaning", "understanding"],
+        "response": "Please provide an interpretation or deeper understanding of the topic."
+      },
+      {
+        "type": "methodology",
+        "keywords": ["methodology", "approach", "techniques"],
+        "response": "Please describe the methodology or approach used to solve the problem."
+      },
+      {
+        "type": "importance_in_industry",
+        "keywords": ["importance in industry", "role in field", "impact in industry"],
+        "response": "Please explain the importance or role of this concept in the given industry."
+      },
+      {
+        "type": "essay",
+        "keywords": ["essay", "write", "discuss", "elaborate"],
+        "response": "Please ensure the essay is well-structured with an introduction, body, and conclusion."
+      },
+      {
+        "type": "step_by_step",
+        "keywords": ["steps to", "how to", "process", "guide"],
+        "response": "Please provide a step-by-step guide to accomplish this task."
+      },
+      {
+        "type": "clarify_short",
+        "min_length": 10,
+        "response": "Please elaborate more on the topic."
+      },
+      {
+        "type": "example",
+        "keywords": ["example", "demonstrate", "illustrate"],
+        "response": "Please provide a relevant example to illustrate your point."
+      },
+      {
+        "type": "list",
+        "keywords": ["list", "enumerate", "give a list"],
+        "response": "Please provide a list of relevant points or items."
+      },
+      {
+        "type": "define",
+        "keywords": ["define", "definition", "meaning"],
+        "response": "Please provide a clear and concise definition of the term."
+      },
+      {
+        "type": "compare",
+        "keywords": ["compare", "differences", "contrast", "similarities"],
+        "response": "Please compare and contrast the two concepts, highlighting their key differences and similarities."
+      },
+      {
+        "type": "summary",
+        "keywords": ["summarize", "summary", "overview"],
+        "response": "Please provide a brief summary of the given information."
+      },
+      {
+        "type": "opinion",
+        "keywords": ["opinion", "believe", "think", "viewpoint"],
+        "response": "Please provide your opinion on the subject, explaining the reasoning behind it."
+      },
+      {
+        "type": "benefits",
+        "keywords": ["benefits", "advantages", "positives"],
+        "response": "Please describe the benefits or advantages of the concept or idea."
+      },
+      {
+        "type": "drawbacks",
+        "keywords": ["drawbacks", "disadvantages", "negatives"],
+        "response": "Please outline the potential drawbacks or disadvantages of the concept or idea."
+      },
+      {
+        "type": "explain",
+        "keywords": ["explain", "clarify", "elucidate"],
+        "response": "Please explain the concept clearly and in detail."
+      },
+      {
+        "type": "how_it_works",
+        "keywords": ["how", "works", "function", "operate"],
+        "response": "Please explain how the system or process works in simple terms."
+      },
+      {
+        "type": "steps_for",
+        "keywords": ["steps for", "how to", "procedure for"],
+        "response": "Please provide the procedure or steps to complete the given task."
+      },
+      {
+        "type": "causes",
+        "keywords": ["causes", "reasons", "why"],
+        "response": "Please explain the causes or reasons behind the given phenomenon."
+      },
+      {
+        "type": "solutions",
+        "keywords": ["solutions", "fix", "remedy", "cure"],
+        "response": "Please provide solutions or remedies for the problem mentioned."
+      },
+      {
+        "type": "consequence",
+        "keywords": ["consequence", "effect", "impact"],
+        "response": "Please explain the consequences or effects of the situation."
+      },
+      {
+        "type": "history",
+        "keywords": ["history", "background", "origin", "evolution"],
+        "response": "Please provide a brief history or background of the topic."
+      },
+      {
+        "type": "future",
+        "keywords": ["future", "outlook", "prediction", "prognosis"],
+        "response": "Please describe the potential future implications or outlook for the topic."
+      },
+      {
+        "type": "importance",
+        "keywords": ["importance", "significance", "relevance"],
+        "response": "Please explain the importance or significance of the topic."
+      },
+      {
+        "type": "techniques",
+        "keywords": ["techniques", "methods", "strategies", "approaches"],
+        "response": "Please describe the techniques or methods used to accomplish the task."
+      },
+      {
+        "type": "examples_of",
+        "keywords": ["examples of", "instances of", "case studies"],
+        "response": "Please provide examples or case studies to illustrate the concept."
+      },
+      {
+        "type": "advantages_of",
+        "keywords": ["advantages of", "benefits of"],
+        "response": "Please describe the advantages or benefits of this particular method or idea."
+      },
+      {
+        "type": "disadvantages_of",
+        "keywords": ["disadvantages of", "limitations of"],
+        "response": "Please describe the disadvantages or limitations of this particular method or idea."
+      },
+      {
+        "type": "challenges",
+        "keywords": ["challenges", "issues", "difficulties", "obstacles"],
+        "response": "Please outline the challenges or difficulties that may arise in this scenario."
+      },
+      {
+        "type": "applications",
+        "keywords": ["applications", "uses", "purposes", "benefits"],
+        "response": "Please describe the practical applications or uses of this concept."
+      },
+      {
+        "type": "advantages_and_disadvantages",
+        "keywords": ["pros and cons", "advantages and disadvantages", "benefits and drawbacks"],
+        "response": "Please provide a balanced overview of the advantages and disadvantages of the given subject."
+      },
+      {
+        "type": "process",
+        "keywords": ["process", "procedure", "workflow"],
+        "response": "Please describe the process or procedure involved in completing this task."
+      },
+      {
+        "type": "steps_to_achieve",
+        "keywords": ["steps to achieve", "how to achieve", "process to accomplish"],
+        "response": "Please outline the steps necessary to achieve this goal."
+      },
+      {
+        "type": "case_study",
+        "keywords": ["case study", "example", "real-world example"],
+        "response": "Please provide a case study or a real-world example related to the topic."
+      },
+      {
+        "type": "comparison_between",
+        "keywords": ["comparison between", "differences between", "contrast between"],
+        "response": "Please compare and contrast the given subjects or topics."
+      },
+      {
+        "type": "why_important",
+        "keywords": ["why important", "why critical", "why necessary"],
+        "response": "Please explain why this topic is important or critical."
+      },
+      {
+        "type": "summary_of",
+        "keywords": ["summary of", "overview of"],
+        "response": "Please provide a brief summary or overview of the content."
+      },
+      {
+        "type": "overview",
+        "keywords": ["overview", "brief overview"],
+        "response": "Please provide a general overview of the topic."
+      },
+      {
+        "type": "conclusion",
+        "keywords": ["conclusion", "closing thoughts", "final thoughts"],
+        "response": "Please conclude the discussion with final thoughts or a conclusion."
+      },
+      {
+        "type": "requirements",
+        "keywords": ["requirements", "pre-requisites", "needs"],
+        "response": "Please list the requirements or prerequisites needed to complete this task."
+      },
+      {
+        "type": "tools_and_technologies",
+        "keywords": ["tools", "technologies", "software", "platforms"],
+        "response": "Please list the tools or technologies used in this process."
+      },
+      {
+        "type": "importance_of",
+        "keywords": ["importance of", "role of"],
+        "response": "Please explain the importance or role of this concept in the given context."
+      },
+      {
+        "type": "recommendations",
+        "keywords": ["recommendations", "suggestions", "advice"],
+        "response": "Please provide recommendations or suggestions related to the topic."
+      },
+      {
+        "type": "best_practices",
+        "keywords": ["best practices", "ideal methods", "tips"],
+        "response": "Please outline the best practices or ideal methods to achieve success in this area."
+      },
+      {
+        "type": "examples_of_best_practices",
+        "keywords": ["examples of best practices", "successful examples"],
+        "response": "Please provide examples of successful best practices in this domain."
+      },
+      {
+        "type": "pitfalls_to_avoid",
+        "keywords": ["pitfalls", "mistakes", "common errors", "things to avoid"],
+        "response": "Please describe the common pitfalls or mistakes to avoid when handling this task."
+      },
+      {
+        "type": "insights",
+        "keywords": ["insights", "lessons learned", "takeaways"],
+        "response": "Please provide insights or lessons learned from this experience."
+      },
+      {
+        "type": "considerations",
+        "keywords": ["considerations", "factors to consider", "important points"],
+        "response": "Please list the important considerations or factors to keep in mind when addressing this topic."
+      },
+      {
+        "type": "future_trends",
+        "keywords": ["future trends", "emerging trends", "upcoming trends"],
+        "response": "Please explain the upcoming trends or emerging developments in this field."
+      },
+      {
+        "type": "history_and_evolution",
+        "keywords": ["history and evolution", "background and development"],
+        "response": "Please describe the history and evolution of this topic or concept."
+      },
+      {
+        "type": "define",
+        "keywords": ["define", "definition", "meaning"],
+        "response": "Please provide a clear and concise definition of the term."
+      },
+      {
+        "type": "list",
+        "keywords": ["list", "enumerate", "give a list"],
+        "response": "Please provide a list of relevant points or items."
+      },
+      {
+        "type": "compare",
+        "keywords": ["compare", "differences", "contrast", "similarities"],
+        "response": "Please compare and contrast the two concepts, highlighting their key differences and similarities."
+      },
+      {
+        "type": "essay",
+        "keywords": ["essay", "write", "discuss", "elaborate"],
+        "response": "Please ensure the essay is well-structured with an introduction, body, and conclusion."
+      },
+      {
+        "type": "summary",
+        "keywords": ["summarize", "summary", "overview"],
+        "response": "Please provide a brief summary of the given information."
+      },
+      {
+        "type": "opinion",
+        "keywords": ["opinion", "believe", "think", "viewpoint"],
+        "response": "Please provide your opinion on the subject, explaining the reasoning behind it."
+      },
+      {
+        "type": "benefits",
+        "keywords": ["benefits", "advantages", "positives"],
+        "response": "Please describe the benefits or advantages of the concept or idea."
+      },
+      {
+        "type": "drawbacks",
+        "keywords": ["drawbacks", "disadvantages", "negatives"],
+        "response": "Please outline the potential drawbacks or disadvantages of the concept or idea."
+      },
+      {
+        "type": "explain",
+        "keywords": ["explain", "clarify", "elucidate"],
+        "response": "Please explain the concept clearly and in detail."
+      },
+      {
+        "type": "how_it_works",
+        "keywords": ["how", "works", "function", "operate"],
+        "response": "Please explain how the system or process works in simple terms."
+      },
+      {
+        "type": "steps_for",
+        "keywords": ["steps for", "how to", "procedure for"],
+        "response": "Please provide the procedure or steps to complete the given task."
+      },
+      {
+        "type": "causes",
+        "keywords": ["causes", "reasons", "why"],
+        "response": "Please explain the causes or reasons behind the given phenomenon."
+      },
+      {
+        "type": "solutions",
+        "keywords": ["solutions", "fix", "remedy", "cure"],
+        "response": "Please provide solutions or remedies for the problem mentioned."
+      },
+      {
+        "type": "consequence",
+        "keywords": ["consequence", "effect", "impact"],
+        "response": "Please explain the consequences or effects of the situation."
+      },
+      {
+        "type": "history",
+        "keywords": ["history", "background", "origin", "evolution"],
+        "response": "Please provide a brief history or background of the topic."
+      },
+      {
+        "type": "future",
+        "keywords": ["future", "outlook", "prediction", "prognosis"],
+        "response": "Please describe the potential future implications or outlook for the topic."
+      },
+      {
+        "type": "importance",
+        "keywords": ["importance", "significance", "relevance"],
+        "response": "Please explain the importance or significance of the topic."
+      },
+      {
+        "type": "techniques",
+        "keywords": ["techniques", "methods", "strategies", "approaches"],
+        "response": "Please describe the techniques or methods used to accomplish the task."
+      },
+      {
+        "type": "examples_of",
+        "keywords": ["examples of", "instances of", "case studies"],
+        "response": "Please provide examples or case studies to illustrate the concept."
+      },
+      {
+        "type": "advantages_of",
+        "keywords": ["advantages of", "benefits of"],
+        "response": "Please describe the advantages or benefits of this particular method or idea."
+      },
+      {
+        "type": "disadvantages_of",
+        "keywords": ["disadvantages of", "limitations of"],
+        "response": "Please describe the disadvantages or limitations of this particular method or idea."
+      },
+      {
+        "type": "challenges",
+        "keywords": ["challenges", "issues", "difficulties", "obstacles"],
+        "response": "Please outline the challenges or difficulties that may arise in this scenario."
+      },
+      {
+        "type": "applications",
+        "keywords": ["applications", "uses", "purposes", "benefits"],
+        "response": "Please describe the practical applications or uses of this concept."
+      },
+      {
+        "type": "advantages_and_disadvantages",
+        "keywords": ["pros and cons", "advantages and disadvantages", "benefits and drawbacks"],
+        "response": "Please provide a balanced overview of the advantages and disadvantages of the given subject."
+      },
+      {
+        "type": "process",
+        "keywords": ["process", "procedure", "workflow"],
+        "response": "Please describe the process or procedure involved in completing this task."
+      },
+      {
+        "type": "steps_to_achieve",
+        "keywords": ["steps to achieve", "how to achieve", "process to accomplish"],
+        "response": "Please outline the steps necessary to achieve this goal."
+      },
+      {
+        "type": "case_study",
+        "keywords": ["case study", "example", "real-world example"],
+        "response": "Please provide a case study or a real-world example related to the topic."
+      },
+      {
+        "type": "comparison_between",
+        "keywords": ["comparison between", "differences between", "contrast between"],
+        "response": "Please compare and contrast the given subjects or topics."
+      },
+      {
+        "type": "why_important",
+        "keywords": ["why important", "why critical", "why necessary"],
+        "response": "Please explain why this topic is important or critical."
+      },
+      {
+        "type": "summary_of",
+        "keywords": ["summary of", "overview of"],
+        "response": "Please provide a brief summary or overview of the content."
+      },
+      {
+        "type": "overview",
+        "keywords": ["overview", "brief overview"],
+        "response": "Please provide a general overview of the topic."
+      },
+      {
+        "type": "conclusion",
+        "keywords": ["conclusion", "closing thoughts", "final thoughts"],
+        "response": "Please conclude the discussion with final thoughts or a conclusion."
+      },
+      {
+        "type": "requirements",
+        "keywords": ["requirements", "pre-requisites", "needs"],
+        "response": "Please list the requirements or prerequisites needed to complete this task."
+      },
+      {
+        "type": "tools_and_technologies",
+        "keywords": ["tools", "technologies", "software", "platforms"],
+        "response": "Please list the tools or technologies used in this process."
+      },
+      {
+        "type": "importance_of",
+        "keywords": ["importance of", "role of"],
+        "response": "Please explain the importance or role of this concept in the given context."
+      },
+      {
+        "type": "recommendations",
+        "keywords": ["recommendations", "suggestions", "advice"],
+        "response": "Please provide recommendations or suggestions related to the topic."
+      },
+      {
+        "type": "best_practices",
+        "keywords": ["best practices", "ideal methods", "tips"],
+        "response": "Please outline the best practices or ideal methods to achieve success in this area."
+      },
+      {
+        "type": "examples_of_best_practices",
+        "keywords": ["examples of best practices", "successful examples"],
+        "response": "Please provide examples of successful best practices in this domain."
+      },
+      {
+        "type": "pitfalls_to_avoid",
+        "keywords": ["pitfalls", "mistakes", "common errors", "things to avoid"],
+        "response": "Please describe the common pitfalls or mistakes to avoid when handling this task."
+      },
+      {
+        "type": "insights",
+        "keywords": ["insights", "lessons learned", "takeaways"],
+        "response": "Please provide insights or lessons learned from this experience."
+      },
+      {
+        "type": "considerations",
+        "keywords": ["considerations", "factors to consider", "important points"],
+        "response": "Please list the important considerations or factors to keep in mind when addressing this topic."
+      },
+      {
+        "type": "future_trends",
+        "keywords": ["future trends", "emerging trends", "upcoming trends"],
+        "response": "Please explain the upcoming trends or emerging developments in this field."
+      },
+      {
+        "type": "history_and_evolution",
+        "keywords": ["history and evolution", "background and development"],
+        "response": "Please describe the history and evolution of this topic or concept."
+      },
+      {
+        "type": "what",
+        "keywords": ["what", "define", "describe", "identify", "elaborate"],
+        "response": "Please describe or define what this concept entails."
+      },
+      {
+        "type": "when",
+        "keywords": ["when", "at what time", "how long", "period"],
+        "response": "Please explain when this process or event happens."
+      },
+      {
+        "type": "where",
+        "keywords": ["where", "location", "place"],
+        "response": "Please explain where this occurs or is located."
+      },
+      {
+        "type": "why",
+        "keywords": ["why", "reason", "explanation"],
+        "response": "Please explain why this is the case."
+      },
+      {
+        "type": "how",
+        "keywords": ["how", "method", "technique"],
+        "response": "Please describe how this is done or accomplished."
+      },
+      {
+        "type": "is",
+        "keywords": ["is", "am", "are", "was", "were"],
+        "response": "Please define or explain what this term or concept is."
+      },
+      {
+        "type": "was",
+        "keywords": ["was", "were"],
+        "response": "Please explain what happened in the past related to this event or situation."
+      },
+      {
+        "type": "what_is",
+        "keywords": ["what is", "what are", "what was", "what were"],
+        "response": "Please describe or explain what this term means."
+      },
+      {
+        "type": "how_is",
+        "keywords": ["how is", "how are", "how was", "how were"],
+        "response": "Please describe how something is done or how a condition exists."
+      },
+      {
+        "type": "where_is",
+        "keywords": ["where is", "where are", "where was", "where were"],
+        "response": "Please explain where this event or concept occurs."
+      },
+      {
+        "type": "when_is",
+        "keywords": ["when is", "when are", "when was", "when were"],
+        "response": "Please describe when this event or situation occurs or occurred."
+      },
+      {
+        "type": "why_is",
+        "keywords": ["why is", "why are", "why was", "why were"],
+        "response": "Please explain why something is the case or why it happened."
+      },
+      {
+        "type": "can",
+        "keywords": ["can", "could"],
+        "response": "Please explain if something is possible or how it can be done."
+      },
+      {
+        "type": "should",
+        "keywords": ["should", "ought to"],
+        "response": "Please explain what one should do or the best course of action."
+      },
+      {
+        "type": "must",
+        "keywords": ["must"],
+        "response": "Please explain what is mandatory or required."
+      },
+      {
+        "type": "may",
+        "keywords": ["may", "might"],
+        "response": "Please explain the possibilities or potential outcomes."
+      },
+      {
+        "type": "did",
+        "keywords": ["did", "does", "do"],
+        "response": "Please explain if something happened or happens, or provide examples."
+      },
+      {
+        "type": "has",
+        "keywords": ["has", "have", "had"],
+        "response": "Please explain what has happened or provide a past event related to the concept."
+      },
+      {
+        "type": "do",
+        "keywords": ["do", "does", "doing"],
+        "response": "Please explain how to do something or describe an action."
+      },
+      {
+        "type": "example",
+        "keywords": ["example", "for example", "e.g.", "explain with example"],
+        "response": "Please provide an example to clarify your point."
+      },
+      {
+        "type": "process_of",
+        "keywords": ["process of", "steps in", "how to", "procedure of"],
+        "response": "Please explain the process or steps involved in the given task."
+      },
+      {
+        "type": "step_by_step",
+        "keywords": ["step by step", "detailed steps"],
+        "response": "Please break down the steps involved in a detailed manner."
+      },
+      {
+        "type": "advantages_and_disadvantages",
+        "keywords": ["pros and cons", "advantages and disadvantages"],
+        "response": "Please provide a balanced overview of the advantages and disadvantages."
+      },
+      {
+        "type": "detailed_explanation",
+        "keywords": ["detailed explanation", "in-depth explanation"],
+        "response": "Please provide a detailed explanation with examples where necessary."
+      },
+      {
+        "type": "compare_and_contrast",
+        "keywords": ["compare", "contrast", "differences", "similarities"],
+        "response": "Please compare and contrast the two subjects or ideas."
+      },
+      {
+        "type": "identify",
+        "keywords": ["identify", "recognize", "point out"],
+        "response": "Please identify or point out key elements or characteristics."
+      },
+      {
+        "type": "how_to",
+        "keywords": ["how to", "how does", "what steps", "how to perform"],
+        "response": "Please describe the process or steps for completing the task."
+      },
+      {
+        "type": "goal",
+        "keywords": ["goal", "objective", "purpose"],
+        "response": "Please explain the goal or objective of this process."
+      },
+      {
+        "type": "change_in",
+        "keywords": ["change in", "alteration of", "shift in"],
+        "response": "Please explain the changes or alterations that have occurred in this subject."
+      },
+      {
+        "type": "methods_of",
+        "keywords": ["methods of", "techniques for", "ways to"],
+        "response": "Please describe the methods or techniques to accomplish this task."
+      },
+      {
+        "type": "comparison",
+        "keywords": ["comparison", "contrast", "similarities", "differences"],
+        "response": "Please compare and contrast these two subjects or phenomena."
+      },
+      {
+        "type": "benefit_of",
+        "keywords": ["benefit of", "advantages of", "usefulness of"],
+        "response": "Please explain the benefits or advantages of this concept or technique."
+      },
+      {
+        "type": "consequence_of",
+        "keywords": ["consequence of", "impact of", "effect of"],
+        "response": "Please describe the consequences or impacts of this event or phenomenon."
+      },
+      {
+        "type": "summary",
+        "keywords": ["summary", "overview", "conclusion"],
+        "response": "Please summarize the key points discussed."
+      },
+      {
+        "type": "reason_why",
+        "keywords": ["reason why", "why is", "what causes"],
+        "response": "Please explain the reasons or causes behind this phenomenon."
+      },
+      {
+        "type": "is_it_possible",
+        "keywords": ["is it possible", "can it be done", "is this feasible"],
+        "response": "Please explain whether this task or event is possible and under what conditions."
+      },
+      {
+        "type": "role_of",
+        "keywords": ["role of", "importance of", "function of"],
+        "response": "Please explain the role or importance of this factor in the given context."
+      },
+      {
+        "type": "example_explanation",
+        "keywords": ["for example", "for instance", "e.g."],
+        "response": "Please provide a relevant example to illustrate your point."
+      },
+      {
+        "type": "possible_reasons",
+        "keywords": ["possible reasons", "why might", "reasons behind"],
+        "response": "Please explore the possible reasons behind this event or situation."
+      },
+      {
+        "type": "history_of",
+        "keywords": ["history of", "origin of", "evolution of"],
+        "response": "Please describe the history or origin of this concept."
+      },
+      {
+        "type": "examples_of_success",
+        "keywords": ["examples of success", "successful examples", "case studies"],
+        "response": "Please provide examples of success or case studies related to this topic."
+      },
+      {
+        "type": "key_points",
+        "keywords": ["key points", "main points", "critical points"],
+        "response": "Please summarize the key or main points of this discussion."
+      },
+      {
+        "type": "methods_to_avoid",
+        "keywords": ["methods to avoid", "things to avoid", "mistakes to avoid"],
+        "response": "Please outline methods or actions that should be avoided in this context."
+      },
+      {
+        "type": "action_required",
+        "keywords": ["action required", "what needs to be done"],
+        "response": "Please describe the action that needs to be taken in this scenario."
+      },
+      {
+        "type": "current_trends",
+        "keywords": ["current trends", "emerging trends", "recent developments"],
+        "response": "Please describe the current trends or recent developments in this field."
+      }
+    ]
+  }
+  
+  
+  
